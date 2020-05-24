@@ -3,3 +3,91 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    background-color: #FFDBAA;
+    height: 20vh;
+    width : 100%;
+    margin: 0; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#company {
+    margin-left: 20px; 
+    margin-top: 20px;
+    margin-bottom:40px; 
+    width: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #553100; 
+}
+
+h2 {
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#buttons button {
+    background-color: #805215;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    margin: 12px;
+}
+
+#mainBox {
+    background-color:#D4A76A;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 80vh;
+    border-top: solid 1px black;
+    margin: 0;
+}
+
+#mainBox button {
+    background-color: #805215;
+    font-weight: 300%;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#boxLine1 {
+    display: flex;
+    padding-top: 40px;
+}
+
+#box1 {
+    margin-left: 8%;
+    background-color:white;
+    padding:5px;
+}
+
+
+#box2 {
+    margin-left: 8%;
+    background-color:white;
+    padding: 5px;
+}
+
+
+#box3 {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color:white;
+    padding: 5px;
+}
+
+#boxLine2 {
+    background-color:white;
+    margin: 50px;
+    padding: 5px;
+}
+
